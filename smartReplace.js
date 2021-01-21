@@ -217,7 +217,7 @@ async function downloader_jd() {
             "京喜农场分享码"
         );
         await download(
-            "https://github.com/gz154838009/jd_01/raw/master/USER_AGENTS.js",
+            "https://github.com/gz154838009/jd_01/raw/gz154838009-patch-1/USER_AGENTS.js",
             "./USER_AGENTS.js",
             "USER_AGENTS"
         );
@@ -229,7 +229,7 @@ async function downloader_notify() {
 }
 
 async function downloader_user_agents() {
-    await download("https://github.com/gz154838009/jd_01/raw/master/USER_AGENTS.js", "./USER_AGENTS.js", "云端UA");
+    await download("https://github.com/gz154838009/jd_01/raw/gz154838009-patch-1/USER_AGENTS.js", "./USER_AGENTS.js", "云端UA");
 }
 
 async function download(url, path, target) {
