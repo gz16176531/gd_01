@@ -1,13 +1,10 @@
 name: 手机年终奖
 
 on:
-    workflow_dispatch:
-    schedule:
-        - cron: "5 4,10,16 * * *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_festival
+        types: jd_5g
 
 jobs:
     build:
