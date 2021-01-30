@@ -1,6 +1,10 @@
 name: 神仙答题
 
 on:
+
+    workflow_dispatch:
+    schedule:
+        - cron: "16 16 * * *"
     watch:
         types: [started]
     repository_dispatch:
