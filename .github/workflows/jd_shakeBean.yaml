@@ -3,7 +3,6 @@ name: 摇一摇
 on:
 
     workflow_dispatch:
-    schedule:
     watch:
         types: [started]
     repository_dispatch:
