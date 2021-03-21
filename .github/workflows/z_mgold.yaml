@@ -6,7 +6,7 @@ name: 金奖投票
 on:
     workflow_dispatch:
     schedule:
-        - cron: "20 7,11 * * *"
+        - cron: "20 7,22 * * *"
     watch:
         types: [started]
     repository_dispatch:
