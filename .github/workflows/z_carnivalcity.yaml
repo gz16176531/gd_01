@@ -31,4 +31,4 @@ jobs:
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT || github.event.client_payload.JD_USER_AGENT }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN || github.event.client_payload.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID || github.event.client_payload.TG_USER_ID }}
-          SYNCURL: https://github.com/gz154838009/jd_01/raw/master1/jd_carnivalcity.js
+          SYNCURL: https://github.com/gz154838009/jd_01/raw/master1/z_carnivalcity.js
