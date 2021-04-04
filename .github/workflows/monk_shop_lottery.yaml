@@ -3,7 +3,7 @@ name: monk_shop_lottery
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 16,2,15 * * *'
+    - cron: '3 16,2,13 * * *'
   watch:
     types: started
   repository_dispatch:
