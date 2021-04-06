@@ -1,6 +1,4 @@
-name: monk_shop_lottery
-
-https://github.com/gz154838009/jd_01/raw/master1/monk_shop_lottery.js
+name: 店铺大转盘
 
 on:
   workflow_dispatch:
