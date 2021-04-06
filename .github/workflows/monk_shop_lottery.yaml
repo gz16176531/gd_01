@@ -1,9 +1,11 @@
 name: monk_shop_lottery
 
+https://github.com/gz154838009/jd_01/raw/master1/monk_shop_lottery.js
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 16,2,13 * * *'
+    - cron: '3 2,13 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -31,4 +33,4 @@ jobs:
           JD_USER_AGENT: ${{ secrets.JD_USER_AGENT || github.event.client_payload.JD_USER_AGENT }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN || github.event.client_payload.TG_BOT_TOKEN }}
           TG_USER_ID: ${{ secrets.TG_USER_ID || github.event.client_payload.TG_USER_ID }}
-          SYNCURL: https://github.com/wintjade/un_break/raw/master/src/monk_shop_lottery.js
+          SYNCURL: https://github.com/gz154838009/jd_01/raw/master1/monk_shop_lottery.js
